@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/epiEcho-recipe-app/static/css/main.82b4c71f.css",
-    "main.js": "/epiEcho-recipe-app/static/js/main.e4d9b15c.js",
+    "main.js": "/epiEcho-recipe-app/static/js/main.f2e19e86.js",
     "index.html": "/epiEcho-recipe-app/index.html",
     "main.82b4c71f.css.map": "/epiEcho-recipe-app/static/css/main.82b4c71f.css.map",
-    "main.e4d9b15c.js.map": "/epiEcho-recipe-app/static/js/main.e4d9b15c.js.map"
+    "main.f2e19e86.js.map": "/epiEcho-recipe-app/static/js/main.f2e19e86.js.map"
   },
   "entrypoints": [
     "static/css/main.82b4c71f.css",
-    "static/js/main.e4d9b15c.js"
+    "static/js/main.f2e19e86.js"
   ]
 }
