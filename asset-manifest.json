@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/epiEcho-recipe-app/static/css/main.82b4c71f.css",
+    "main.js": "/epiEcho-recipe-app/static/js/main.67c3745f.js",
+    "index.html": "/epiEcho-recipe-app/index.html",
+    "main.82b4c71f.css.map": "/epiEcho-recipe-app/static/css/main.82b4c71f.css.map",
+    "main.67c3745f.js.map": "/epiEcho-recipe-app/static/js/main.67c3745f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82b4c71f.css",
+    "static/js/main.67c3745f.js"
+  ]
+}
