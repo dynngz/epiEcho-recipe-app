@@ -1,0 +1,34 @@
+.section.skills{
+    .col.img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 70%;
+            display: block;
+        }
+        align-items: center;
+    }
+    .col.typography {
+        h1{
+            margin-bottom: .75em; 
+        }
+        .skill-item {
+            border-left: .2em solid var(--primary-color);
+            margin-bottom: .5em;
+            padding: .1em 0 .1em .5em;
+            color: var(--text-light);
+            opacity: 0;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+        }
+        .skill-item.visible {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        
+        .bt{
+            margin-top: 1.3em;
+        }
+    }
+}

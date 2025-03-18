@@ -1,0 +1,26 @@
+.section.hero{
+    .typography{
+        padding-right: 4em;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.75vw;
+        .custom-img{
+            border-radius: 6px; //work
+            overflow: hidden; //together
+            transform: scale(0);
+            opacity: 0;
+            animation: getAnimationDuration(.3s) popOut forwards;
+            &:nth-child(3) {
+                animation-delay: .2s;
+            }
+            &:nth-child(4) {
+                animation-delay: .3s;
+            }
+            &:nth-child(2) {
+                animation-delay: .4s;
+            }
+        }
+    }
+}

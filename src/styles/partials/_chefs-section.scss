@@ -1,0 +1,52 @@
+.section.chefs {
+    display: block;
+}
+.chefs-container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 1.5em;
+}
+.chef-card{
+    display: flex;
+    height: auto; 
+    padding: 1em;
+    background-color: var(--background-color);//theme
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 1.5em; 
+    align-items: center;
+    img{
+        height: 100px;
+        width: 120px;
+        border-radius: 5px;
+    }
+    .chef-card-info{
+        flex: 1;
+        height: 100%;
+        padding-left: 1em;
+        padding-bottom: .5em;
+        padding-top: .5em;
+        color: var(--text-color); //theme
+        .chef-card-name {
+            font-size: clamp(1.2em, 4vw, 1.5em); 
+            font-weight: bold;
+            color: var(--text-color);
+        }
+        
+        .chef-card-count, .chef-card-cousine{
+            font-size: clamp(1em, 3.5vw, 1.2em); 
+            color: var(--text-light);
+        }
+
+    }
+    .sm-icons {
+        display: flex;  
+        gap: 8px;  
+        margin-top: 5px; 
+        img {
+        width: 24px; 
+        height: 24px;
+        cursor: pointer;
+        }
+    }
+}
