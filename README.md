@@ -19,6 +19,11 @@ Clone the repository and install dependencies:
   npm start
   npm run build
 ``` 
+## License
+This project is licensed under the MIT License – feel free to modify and distribute it :)
+
+## 🌼 Live App Link
+https://dynngz.github.io/epiEcho-recipe-app/
 
 
 
