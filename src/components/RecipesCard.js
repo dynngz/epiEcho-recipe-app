@@ -16,7 +16,7 @@ export default function RecipesCard({ images, chefs, titles, descriptions }) {
             <h3>{titles[index]}</h3>
             
             <p>{descriptions[index]}</p>
-            <a href="#!" className="view-recipe">
+            <a href="!#" className="view-recipe">
               VIEW RECIPE
             </a>
             </div>
