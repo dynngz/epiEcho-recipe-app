@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Footer() {
     return(
         <div className="footer container">
@@ -16,7 +17,7 @@ export default function Footer() {
                 <p className="title">Social Media</p>
                 <a href = "https://github.com/dynngz">Github</a> 
                 <a href = "https://www.linkedin.com/in/dayana-gomez-54978b332/">LinkedIn</a> 
-                <a href = "#!">Instagram</a> 
+                <Link to="/"> Instagram </Link>
             </div>
         </div>
         

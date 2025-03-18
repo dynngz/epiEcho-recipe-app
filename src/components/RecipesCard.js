@@ -1,4 +1,5 @@
 import CustomImage from "./customImg"
+import { Link } from "react-router-dom";
 
 export default function RecipesCard({ images, chefs, titles, descriptions }) {
     
@@ -16,9 +17,9 @@ export default function RecipesCard({ images, chefs, titles, descriptions }) {
             <h3>{titles[index]}</h3>
             
             <p>{descriptions[index]}</p>
-            <a href="!#" className="view-recipe">
+            <Link to="/recipes" className="view-recipe">
               VIEW RECIPE
-            </a>
+            </Link>
             </div>
           </div>
         ))}
