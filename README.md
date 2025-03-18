@@ -13,7 +13,7 @@ A **fully responsive** recipe web application built with **React**, featuring **
 ### Installation  
 Clone the repository and install dependencies:  
 ```bash
-  git clone https://github.com/dynngz/recipe-app.git
+  git clone https://github.com/dynngz/epiEcho-recipe-app.git
   cd recipe-app
   npm install
   npm start
